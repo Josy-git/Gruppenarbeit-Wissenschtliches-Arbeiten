@@ -1,15 +1,17 @@
 # GitHub Gruppenarbeit
 
-# Datensatz:
+# Datensatz erstellen:
 
+#ID für Person
 ID <- 1:100
 
+#NV ZV mit mean 25 und sd 2
 Alter <- rnorm(100, mean = 25, sd = 2)
 
 Studienfach <- c("Statistik", "Data Science", "Mathe", "Informatik")
 
 Studienfach <- sample(Studienfach, size = 100, replace = TRUE, 
-                      prob = c(0.35, 0.35, 0.2, 0.1))
+                      prob = c(0.35, 0.35, 0.1, 0.2))
 
 Interesse_an_Mathematik <- sample(1:7, 100, replace = TRUE)
 
